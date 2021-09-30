@@ -1,0 +1,102 @@
+nav{
+  position: fixed;
+  background: #3C6E71;
+  width: 100%;
+  padding: 12px ;
+  z-index: 10;
+
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  align-text: left;
+  text-decoration: none;
+  color: #D9D9D9;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #D9B310;
+  color: black;
+}
+.center{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-45%, -125%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+}
+.center .title{
+  color: #4D9093;
+  font-size: 40px;
+  font-weight: 500;
+}
+.center .sub_title{
+  color: #4D9093;
+  font-size: 36px;
+  font-weight: 500;
+}
+p{
+  color: #353535;
+}
+#back {
+   background-image: url('../images/Gloomy Mountain.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border: 3px black;
+}
+
+.flexbox-item {
+    margin: 5px;
+    padding: 3px;
+    border: 3px black #262626;
+    background-color: clear#D9D9D9;
+}
+
+.item-1 {
+
+    width: 65%;
+    min-height: 50px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 14px;
+}
+
+.item-2 {
+    width: 35%;
+    min-height: 200px;
+    align-self: flex;
+    font-family: 'Secular One', sans-serif;
+}
